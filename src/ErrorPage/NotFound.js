@@ -5,7 +5,7 @@ const NotFound = () => {
     let history = useHistory();
     setTimeout(()=>{
         history.push('/');
-    },1000);
+    },1);
     return (
         <div>
             <h1>
