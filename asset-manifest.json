@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/BuddyBook/static/css/main.d4c8fe4d.chunk.css",
-    "main.js": "/BuddyBook/static/js/main.bb4c19d6.chunk.js",
-    "main.js.map": "/BuddyBook/static/js/main.bb4c19d6.chunk.js.map",
+    "main.css": "/BuddyBook/static/css/main.4442741f.chunk.css",
+    "main.js": "/BuddyBook/static/js/main.a32a9172.chunk.js",
+    "main.js.map": "/BuddyBook/static/js/main.a32a9172.chunk.js.map",
     "runtime-main.js": "/BuddyBook/static/js/runtime-main.dd62e80e.js",
     "runtime-main.js.map": "/BuddyBook/static/js/runtime-main.dd62e80e.js.map",
     "static/js/2.28c66197.chunk.js": "/BuddyBook/static/js/2.28c66197.chunk.js",
     "static/js/2.28c66197.chunk.js.map": "/BuddyBook/static/js/2.28c66197.chunk.js.map",
     "index.html": "/BuddyBook/index.html",
-    "static/css/main.d4c8fe4d.chunk.css.map": "/BuddyBook/static/css/main.d4c8fe4d.chunk.css.map",
+    "static/css/main.4442741f.chunk.css.map": "/BuddyBook/static/css/main.4442741f.chunk.css.map",
     "static/js/2.28c66197.chunk.js.LICENSE.txt": "/BuddyBook/static/js/2.28c66197.chunk.js.LICENSE.txt",
     "static/media/Face.css": "/BuddyBook/static/media/buddymobi.35484667.png"
   },
   "entrypoints": [
     "static/js/runtime-main.dd62e80e.js",
     "static/js/2.28c66197.chunk.js",
-    "static/css/main.d4c8fe4d.chunk.css",
-    "static/js/main.bb4c19d6.chunk.js"
+    "static/css/main.4442741f.chunk.css",
+    "static/js/main.a32a9172.chunk.js"
   ]
 }
