@@ -12,7 +12,7 @@ const ShareUrl = () => {
     current_location = current_location.replace('Share','play/');
     let game_url = current_location + player;
     game_url = game_url.replace(' ','%20');
-    let whatsapp_url = "whatsapp://send?text="+game_url;
+    // let whatsapp_url = "whatsapp://send?text="+game_url;
     return (
         <>
             <div className="container-fluid main-in-create">
@@ -21,7 +21,7 @@ const ShareUrl = () => {
                     <span className="enter-name-heading">Copy this link and share with your friends</span>
                     <div className="container-fluid input-create show-url text-truncate" id="a">{game_url}</div>
                     <button className="btn btn-danger btn-create" onClick={()=>copy()}>Copy</button>
-                    <button className="btn btn-back-home" onClick={()=>window.location.assign(whatsapp_url)}><i className="fab fa-whatsapp"></i>Copy it & Share to whatsapp<br></br></button>
+                    <button className="btn btn-back-home" onClick={()=>copy()}><i className="fab fa-whatsapp"></i>Copy it & Share to whatsapp, Insta</button>
                 </div>
             </div>
             <span className="copied" id="notification-copy">Copoied!</span>
