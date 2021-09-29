@@ -1,0 +1,186 @@
+.main-in-create{
+    width: 50%;
+    padding:0;
+    margin-top: 10rem;
+    padding-bottom: 6rem;
+    padding-top: 0rem;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.div-for-form{
+    background-color: #fff;
+    height:auto;
+    width: 90%;
+    box-shadow: 1px 1px 5px #777;
+    /* border: 1px solid red; */
+    border-radius: 5px ;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.entry-face-form-div{
+    padding-bottom: 4rem;
+}
+.enter-name-heading{
+    display: block;
+    padding-top: 1rem;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.red-user{
+    color: red;
+    display: block;
+    padding-top: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.input-create{
+    display: block;
+    width: 60%;
+    margin-top: 2rem;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    text-align: center;
+}
+.btn-create{
+    background-color:rgb(230, 0, 0);
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.btn-create:hover{
+    background-color:rgb(201, 0, 0);
+}
+.back-sign{
+    font-size: 0.8rem;
+}
+.btn-back-home{
+    margin-top: 1rem;
+    color: rgb(85, 85, 255);
+    font-weight: 500;
+    text-decoration: underline;
+    transition: 0.4s ease;
+}
+.btn-back-home:hover{
+    color: rgb(160, 160, 255);
+}
+
+.show-url{
+    border-radius: 2rem;
+    min-height: 2.5rem;
+    font-weight: 500;
+    background-color: aliceblue;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.copied{
+    display: block;
+    padding: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: rgb(0, 219, 0);
+    box-shadow: 2px 2px 10px #666;
+    color:#fff;
+    width: 20%;
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 2rem;
+    position: fixed;
+    top:12%;
+    left:40%;
+    display: none;
+}
+@media screen and (max-width:768px){
+    .main-in-create{
+        width: 100%;
+        padding:0;
+        margin-top: 6rem;
+        padding-bottom: 6rem;
+        padding-top: 0rem;
+        height: auto;
+        /* border: 1px solid red; */
+    }
+    .div-for-form{
+        background-color: #fff;
+        height:auto;
+        width: 100%;
+        box-shadow: 0px 0px 0px #777;
+        /* border: 1px solid red; */
+        border-radius: 5px ;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .entry-face-form-div{
+        padding-bottom: 5rem;
+    }
+    .enter-name-heading{
+        display: block;
+        padding-top: 1rem;
+        margin: 0 auto;
+        width: 95%;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .red-user{
+        color: red;
+        display: block;
+        padding-top: 1rem;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    .input-create{
+        display: block;
+        width: 80%;
+        margin-top: 1.5rem;
+        border: 1px solid #999;
+        border-radius: 50px;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        text-align: center;
+    }
+    .btn-create{
+        background-color:rgb(230, 0, 0);
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        font-size: 1.1rem;
+        margin-top: 2rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+    .btn-create:hover{
+        background-color:rgb(201, 0, 0);
+    }
+    .back-sign{
+        font-size: 0.8rem;
+    }
+    .btn-back-home{
+        margin-top: 2rem;
+        color: rgb(85, 85, 255);
+        font-weight: 500;
+        text-decoration: underline;
+        transition: 0.4s ease;
+    }
+    .btn-back-home:hover{
+        color: rgb(160, 160, 255);
+    }
+    .copied{
+        width: 50%;
+        left: 25%;
+        background-color: rgb(0, 224, 0);
+        box-shadow: 2px 2px 10px #666;
+    }
+    
+}

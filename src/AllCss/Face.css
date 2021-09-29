@@ -1,0 +1,129 @@
+.face-main{
+    border: 0px solid red;
+    width: 60%;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+.main-face-heading{
+    font-size: 4rem;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 900;
+    color:rgb(0, 0, 0);
+    text-shadow: -0.1rem 0.1rem 0.2rem  #fffc3c;
+}
+.background-image{
+    width: 70%;
+    margin-top: 3rem;
+    height: 15rem;
+    /* border:1px solid red; */
+    background: url(media/buddylaptop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.text-create{
+    text-align: center;
+    display: block;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.r{
+    color:red;
+}
+.text-infoo{
+    font-size: 1.4rem;
+    color:rgb(93, 93, 255);
+}
+.create-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.player-name{
+    color:red;
+}
+.create-btn-on-play-page{
+    margin-top: 2rem;
+}
+.text-ask-for-play{
+    color:blueviolet;
+    font-size: 1rem;
+    margin-top: 4rem;
+}
+.play-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding-left: 7rem;
+    background-color: rgb(65, 138, 255);
+    border:1px solid rgb(71, 89, 255);
+    color:#fff;
+    font-weight: 500;
+    transition: 0.5s ease;
+    padding-right: 7rem;
+}
+.play-btn:hover{
+    background-color: rgb(112, 167, 255);
+    color:#fff;
+}
+@media screen and (max-width:768px) {
+    
+    .face-main{
+        width: 100%;
+        background-color: inherit;
+        padding-bottom: 6rem;
+    }
+    .main-face-heading{
+        font-size: 3rem;
+        font-family:'Times New Roman', Times, serif;
+        text-shadow: -1px 1px 1px  #fff4b4;
+        color:rgb(66, 66, 66);
+    }
+    .background-image{
+        width:17rem;
+        margin-top: 1rem;
+        height: 16rem;
+        /* border:1px solid red; */
+        background: url(media/buddymobi.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .text-create{
+        text-align: center;
+        display: block;
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+    .text-infoo{
+        font-size: 1.2rem;
+        color:#27cdff;
+    }
+    .create-btn{
+        margin-top: 3rem;
+    }
+        
+    .create-btn-on-play-page{
+        margin-top: 1.5rem;
+    }
+    .text-ask-for-play{
+        color:rgb(83, 83, 83);
+        font-size: 1.1rem;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+    .play-btn{
+        display: block;
+        margin: 0 auto;
+        margin-top: 2rem;
+        padding-left: 6rem;
+        background-color: rgb(65, 138, 255);
+        border:1px solid rgb(71, 89, 255);
+        color:#fff;
+        font-weight: 500;
+        transition: 0.5s ease;
+        padding-right: 6rem;
+    }
+}
