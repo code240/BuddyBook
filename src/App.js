@@ -17,6 +17,7 @@ import Ask9 from './Pages/QuestionPages/Ask9';
 import Result from './Pages/Result';
 
 const App = () => {
+  document.title = "Buddies Book";
   return (
     <>
       <Switch>
