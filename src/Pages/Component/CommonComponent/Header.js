@@ -21,7 +21,7 @@ const Header = (prop) => {
           <div className="right-div-for-btns" id="buttonbar">
             <button className="btn btn-header" id="i1"  onClick={()=>history.push('/')}>Home</button>
             <button className="btn btn-header" id="i2">Questions</button>
-            <button className="btn btn-header" id="i3" onClick={()=>history.push('/BuddyBook/create')}>Create</button>
+            <button className="btn btn-header" id="i3" onClick={()=>history.push('/create')}>Create</button>
             <button className="btn btn-header" id="i4">About</button>
             <button className="btn btn-header" id="i5">Contact</button>
             <button className="btn btn-header btn-try" onClick={()=>history.push('/create')}  id="i6">Try</button>

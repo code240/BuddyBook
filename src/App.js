@@ -20,9 +20,8 @@ const App = () => {
   return (
     <>
       <Switch>
-        <Route exact path="BuddyBook/" component={Home}/>
-        <Route exact path="/BuddyBook" component={Home}/>
-        <Route exact path="BuddyBook/create" component={Create}/>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/create" component={Create}/>
         <Route exact path="/share" component={Share}/>
         <Route path="/play/:name" component={Play}/>
         <Route exact path="/entry" component={Entry}/>
