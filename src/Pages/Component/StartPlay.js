@@ -34,7 +34,7 @@ function StartPlay(props) {
           setCookie("load","error_checking","1");
           setTimeout(()=>{
             window.location.reload();
-          },1000);
+          },100);
         }
       
     return (
