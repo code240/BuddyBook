@@ -21,7 +21,7 @@ const ShareUrl = () => {
                     <span className="enter-name-heading">Copy this link and share with your friends</span>
                     <div className="container-fluid input-create show-url text-truncate" id="a">{game_url}</div>
                     <button className="btn btn-danger btn-create" onClick={()=>copy()}>Copy</button>
-                    <a className="btn btn-back-home" href={whatsapp_url}><i className="fab fa-whatsapp"></i> Share to whatsapp</a>
+                    <button className="btn btn-back-home" onClick={()=>window.location.assign(whatsapp_url)}><i className="fab fa-whatsapp"></i>Copy it & Share to whatsapp<br></br></button>
                 </div>
             </div>
             <span className="copied" id="notification-copy">Copoied!</span>
