@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BuddyBook/static/css/main.e16c4fe6.chunk.css",
-    "main.js": "/BuddyBook/static/js/main.60e5da6d.chunk.js",
-    "main.js.map": "/BuddyBook/static/js/main.60e5da6d.chunk.js.map",
+    "main.js": "/BuddyBook/static/js/main.f55b097e.chunk.js",
+    "main.js.map": "/BuddyBook/static/js/main.f55b097e.chunk.js.map",
     "runtime-main.js": "/BuddyBook/static/js/runtime-main.dd62e80e.js",
     "runtime-main.js.map": "/BuddyBook/static/js/runtime-main.dd62e80e.js.map",
     "static/js/2.7a458b54.chunk.js": "/BuddyBook/static/js/2.7a458b54.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.dd62e80e.js",
     "static/js/2.7a458b54.chunk.js",
     "static/css/main.e16c4fe6.chunk.css",
-    "static/js/main.60e5da6d.chunk.js"
+    "static/js/main.f55b097e.chunk.js"
   ]
 }
