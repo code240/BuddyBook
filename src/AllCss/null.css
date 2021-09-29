@@ -1,0 +1,6 @@
+.nulldiv{
+    width: 100%;
+    height: 0;
+    background-color: inherit;
+    display: none;
+}
