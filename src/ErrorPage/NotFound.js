@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 
 const NotFound = () => {
     let history = useHistory();
-    history.push('/');
+    history.push('/BuddyBook');
     return (
         <div>
             <h1>
