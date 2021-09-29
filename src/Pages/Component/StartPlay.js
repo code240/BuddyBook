@@ -4,7 +4,39 @@ import "../../AllCss/Face.css";
 
 function StartPlay(props) {
     let history = useHistory();
-    sessionStorage.setItem("mainPlayer",props.player);
+    let mainPlayerName = props.player;
+    sessionStorage.setItem("mainPlayer",mainPlayerName);
+
+    function setCookie(cname, cvalue, exdays) {
+        const d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        let expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+    function getCookie(cname) {
+        let name = cname + "=";
+        let decodedCookie = decodeURIComponent(document.cookie);
+        let ca = decodedCookie.split(';');
+        for(let i = 0; i <ca.length; i++) {
+          let c = ca[i];
+          while (c.charAt(0) === ' ') {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) === 0) {
+            return c.substring(name.length, c.length);
+          }
+        }
+        return "";
+      }
+      let cookiedata = getCookie("load");
+      
+      if(cookiedata===""){
+          setCookie("load","error_checking","1");
+          setTimeout(()=>{
+            window.location.reload();
+          },1000);
+        }
+      
     return (
         <>
             <div className="container-fluid face-main">

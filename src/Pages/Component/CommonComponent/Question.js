@@ -9,11 +9,11 @@ const Question = (props) => {
     let history = useHistory();
     let mainPlayer = sessionStorage.getItem("mainPlayer");
     let Player = sessionStorage.getItem("Player");
-    if (mainPlayer == null) {
+    if (mainPlayer===null) {
         history.push("/");
         return false;
     }
-    if (Player == null) {
+    if (Player===null) {
         history.push("/");
         return false;
     }

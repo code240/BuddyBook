@@ -8,6 +8,8 @@ const EntryFace = () => {
         history.push('/');
         return false;
     }
+    
+    document.cookie = "load=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
     const player_entry = () => {
         var name = document.getElementById('gamer').value;
         name = name.trim();
@@ -23,6 +25,7 @@ const EntryFace = () => {
         }
         sessionStorage.setItem("Player",name);
         history.push("/ask1");
+        // window.location.assign("/BuddyBook#/ask1");
     }
 
     return (
