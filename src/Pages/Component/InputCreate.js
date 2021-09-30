@@ -7,7 +7,7 @@ const InputCreate = () => {
     let history = useHistory();
     const CreateGame = () => {
         var name = document.getElementById('gamer').value;
-        name = name.trim();
+        name = name.trim(); 
         if(name===""){
             alert("Enter your Name");
             return false;
